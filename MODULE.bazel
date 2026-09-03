@@ -22,7 +22,7 @@ git_override(
 
 git_override(
     module_name = "com_github_buildbarn_bb_storage",
-    commit = "8ea6e9daf523430917d4ee0ec8a771193d36a5f2",
+    commit = "9c3d7c41f729c730566eb6b7e314597e1a327081",
     patches = [
         "//:patches/com_buildbarn_bb_storage/workflows.diff",
     ],
