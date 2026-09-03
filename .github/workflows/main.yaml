@@ -162,7 +162,7 @@
             {
                "if": "matrix.host.upload",
                "name": "Push container bb_remote_asset:bb_remote_asset",
-               "run": "bazel run --stamp //cmd/bb_remote_asset:bb_remote_asset_container_push"
+               "run": "bazel run --stamp //cmd/bb_remote_asset:bb_remote_asset_container_push -- -repository rrbutani/bb-remote-asset"
             }
          ],
          "strategy": {
